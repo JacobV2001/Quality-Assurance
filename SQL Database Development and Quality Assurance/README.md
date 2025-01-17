@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Overview
 This project demonstrates the design, management, and optimization of a fully functional SQL database. 
 It emphasizes key features such as data integrity, automated testing, security management, reporting, and data validation. 
@@ -300,4 +299,3 @@ GRANT student TO bob;
 This project demonstrates a comprehensive ability to design, implement, and manage a SQL database that ensures data integrity, automated testing, performance validation, and security. 
 It emphasizes the creation of meaningful reports, the ability to automate testing, and the implementation of role-based security. 
 The work showcases a commitment to maintaining high standards in data quality, system performance, and secure database management.
->>>>>>> 67d10dfef01353a0fa3bb05cd751a689bc205503
