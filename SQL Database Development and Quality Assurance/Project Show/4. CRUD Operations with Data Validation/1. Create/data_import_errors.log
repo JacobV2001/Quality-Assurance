@@ -1,0 +1,120 @@
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 1, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 2, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 3, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 4, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 5, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 6, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 7, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 8, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 9, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(2, 10, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 1, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 2, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 3, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 4, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 5, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 6, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 7, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 8, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 9, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(3, 10, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 1, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 2, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 3, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 4, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 5, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 6, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 7, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 8, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 9, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(4, 10, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 1, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 2, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 3, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 4, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 5, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 6, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 7, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 8, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 9, 2023-11-22) already exists.
+
+ERROR:root:Error inserting data: duplicate key value violates unique constraint "uc_studentsubject"
+DETAIL:  Key (studentid, subjectid, examdate)=(5, 10, 2023-11-22) already exists.
+
