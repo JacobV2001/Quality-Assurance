@@ -8,26 +8,50 @@
     <div class="container">
         <h1>Student Registration Form</h1>
         <form method="POST" action="/register">
+
+            <!-- Student Name Formatting -->
             <label for="name">Student Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter student's name" required><br>
+            <input type="text" name="name" id="name" placeholder="Enter student's name" 
+                required pattern="[A-Za-z\s]+" minlength="2"><br>
             
+            <!-- Age Formatting -->
             <label for="age">Age</label>
-            <input type="number" name="age" id="age" placeholder="Enter student's age" required><br>
-            
+            <input type="number" name="age" id="age" placeholder="Enter student's age" 
+                required min="3" max="80"><br>
+
+            <!-- Grade Formatting -->
             <label for="grade">Grade</label>
-            <input type="text" name="grade" id="grade" placeholder="Enter grade" required><br>
+            <select name="grade" id="grade" required>
+                <option value="">Select Grade</option>
+                <option value="Kindergarten"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+            </select><br>
             
+            <!-- Parent Name Formatting -->
             <label for="parent_name">Parent/Guardian Name</label>
-            <input type="text" name="parent_name" id="parent_name" placeholder="Enter parent/guardian's name" required><br>
+            <input type="text" name="parent_name" id="parent_name" placeholder="Enter parent/guardian's name" 
+                required pattern="[A-Za-z\s]+" minlength="2" maxlength="50"><br>
             
+            <!-- Email Formatting -->
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter email address" required><br>
+            <input type="email" name="email" id="email" placeholder="Enter email address" 
+                required pattern="^[A-Za-z0-9._-]{2,}@[A-Za-z0-9.-]{2,}\.{A-Za-z0-9}{2,}"><br>
             
+            <!-- Phone Number Formatting -->
             <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" placeholder="Enter phone number" required><br>
+            <input type="tel" name="phone" id="phone" placeholder="Enter phone number" 
+            required pattern="[0-9]{10}"><br>
             
             <button type="submit" class="btn">Submit Registration</button>
         </form>
+
         <div class="links">
             <a href="/login" class="btn">Log In</a>
             <br><br>

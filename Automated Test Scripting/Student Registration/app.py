@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
+import re
 
 app = Flask(__name__)
 
@@ -28,6 +29,24 @@ def register():
         parent_name = request.form['parent_name']
         email = request.form['email']
         phone = request.form['phone']
+
+        # backend validation
+        errors = []
+        if not name or len(name) < 2 or not name.replace(" ", "").isalpha:
+            errors.append("Invalid name. Name must be at least 2 characters long and only contain letters.")
+        if not age or not age.isdigit() or int(age) < 3 or int(age) > 80:
+            errors.append("Invalid age. Age must be a number between 3 and 80.")
+        if not grade or grade not in ["Kindergarten", "1", "2", "3", "4", "5", "6", "7", "8"]:
+            errors.append("Invalid grade. Please select a valid grade.")
+        if not parent_name or not parent_name.replace(" ", "").isalpha():
+            errors.append("Invalid parent name. Name must only contain letters.")
+        if not email or not re.match(r"^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z{2,}$]", email):
+            errors.append("Invalid email address.")
+        if not phone or not phone.isdigit or len(phone) != 10:
+            errors.append("Invalid phone number. Phone number must be exactly 10 digits.")
+        
+        if errors:
+            return render_template('error,html', message="; ".join(errors))
 
         user_data = {
             'name': name,
