@@ -23,15 +23,15 @@
             <label for="grade">Grade</label>
             <select name="grade" id="grade" required>
                 <option value="">Select Grade</option>
-                <option value="Kindergarten"></option>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
+                <option value="Kindergarten">Kindergarten</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
             </select><br>
             
             <!-- Parent Name Formatting -->
@@ -58,5 +58,60 @@
             <a href="/" class="btn">Back to Home</a>
         </div>
     </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(e) {
+
+            // name
+            const nameInput = document.getElementById('name');
+            if (!/^[A-Za-z\s]{2,50}$/.test(nameInput.value)) {
+                e.preventDefault();
+                alert('Name must only contain letters and spaces.');
+                return;
+            }
+
+            // age
+            const ageInput = document.getElementById('age');
+            const age = parseInt(ageInput.value, 10);
+            if (isNaN(age) || age < 3 || age > 80) {
+                e.preventDefault();
+                alert('Age must be a number between 3 and 80.');
+                return;
+            }
+
+            // grade
+            const gradeInput = document.getElementById('grade');
+            if (!gradeInput.value) {
+                e.preventDefault();
+                alert('Please select a grade.');
+                return;
+            }
+
+            // parent name
+            const parentNameInput = document.getElementById('parent_name');
+            if (!/^[A-Za-z\s]{2,50}$/.test(parentNameInput.value)) {
+                e.preventDefault();
+                alert('Parent name must be between 2 and 50 characters and may only contain letters.')
+                return;
+            }
+
+            // email
+            const emailInput = document.getElementById('email');
+            if (!/^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(emailInput.value)) {
+                e.preventDefault();
+                alert('Please enter a valid email address.');
+                return;
+            }
+
+            // phone number
+            const phoneInput = document.getElementById('phone');
+            if (!/^\d{10}$/.test(phoneInput.value)) {
+                e.preventDefault();
+                alert('Phone number must be exactly 10 digits.');
+                return;
+            }
+
+            // if no validation error occurs continue as usual.
+        }); 
+    </script>
 </body>
 </html>
