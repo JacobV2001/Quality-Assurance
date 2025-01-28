@@ -10,7 +10,7 @@ This project focus is on ensuring high quality Data Integrity, Automation, docum
 - **Data Validation**: Each form is validated through the HTML pages and the flask server.
 
 ## Table of Contents
-1. [Website Creation](website-creation)
+1. [Website Creation](#website-creation)
 2. [Reporting](#reporting)
 3. [Stack](#stack)
 4. [Project Workflow](#project-workflow)
