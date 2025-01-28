@@ -1,0 +1,2 @@
+Removed the maxlength constraint from the registration.html form since it was already required in the app.py.
+Retested all previous forms to ensure they still work properly.

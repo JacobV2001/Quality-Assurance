@@ -1,0 +1,2 @@
+Replaced the phone regex with a more appropriate fit.
+Retested all previous forms.

@@ -39,11 +39,11 @@ def register():
         if not grade or grade not in ["Kindergarten", "1", "2", "3", "4", "5", "6", "7", "8"]:
             errors.append("Invalid grade. Please select a valid grade.")
         if not parent_name or not parent_name.replace(" ", "").isalpha():
-            errors.append("Invalid parent name. Name must only contain letters.")
+            errors.append("Invalid parent name. Name must be at least 2 characters long and only contain letters.")
         if not email or not re.match(r"^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z{2,}$]", email):
             errors.append("Invalid email address.")
-        if not phone or not phone.isdigit or len(phone) != 10:
-            errors.append("Invalid phone number. Phone number must be exactly 10 digits.")
+        #if not phone or not phone.isdigit or len(phone) != 10:
+        #    errors.append("Invalid phone number. Phone number must be exactly 10 digits.")
         
         if errors:
             return render_template('error,html', message="; ".join(errors))

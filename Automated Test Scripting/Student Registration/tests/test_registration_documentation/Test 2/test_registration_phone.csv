@@ -1,0 +1,7 @@
+1234567890,Success
+,Fail,Please fill out this field.
+123,Fail,Please match the requested format.
+abcdefghij,Fail,Please match the requested format.
+123-456-7890,Fail,Please match the requested format.
+123.456.7890,Fail,Please match the requested format.
+(123) 456-7890,Fail,Please match the requested format.

@@ -1,0 +1,6 @@
+johndoe@example.com,Success
+,Fail,Please fill out this field.
+invalid-email,Fail,Please include an '@' in the email address. 'invalid-email' is missing an '@'.
+johndoe@com,Fail,Please enter a valid email address.
+johndoe@.com,Fail,'.' is used at a wrong position in '.com'.
+@example.com,Fail,Please enter a part followed by '@'. '@example.com' is incomplete.

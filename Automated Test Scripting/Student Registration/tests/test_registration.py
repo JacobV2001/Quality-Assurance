@@ -552,8 +552,8 @@ class TestRegistration(unittest.TestCase):
                     writer = csv.writer(bug_file)
                     writer.writerow(csv_write_in)
 
-        def tearDown(self):
-            self.driver.quit()
+    def tearDown(self):
+        self.driver.quit()
 
 if __name__ == "__main__":
     unittest.main()

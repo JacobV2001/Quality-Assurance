@@ -37,7 +37,7 @@
             <!-- Parent Name Formatting -->
             <label for="parent_name">Parent/Guardian Name</label>
             <input type="text" name="parent_name" id="parent_name" placeholder="Enter parent/guardian's name" 
-                required pattern="[A-Za-z\s]+" minlength="2" maxlength="50"><br>
+                required pattern="[A-Za-z\s]+" minlength="2"><br>
             
             <!-- Email Formatting -->
             <label for="email">Email</label>
@@ -46,8 +46,8 @@
             
             <!-- Phone Number Formatting -->
             <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" placeholder="Enter phone number" 
-            required pattern="[0-9]{10}"><br>
+            <input type="tel" name="phone" id="phone" placeholder="Enter phone number"
+                required pattern="^[(]?[0-9]{3}[)]?[/s.-]?[0-9]{3}[.-]?[0-9]{4}$"><br>
             
             <button type="submit" class="btn">Submit Registration</button>
         </form>
@@ -65,7 +65,7 @@
             const nameInput = document.getElementById('name');
             if (!/^[A-Za-z\s]{2,50}$/.test(nameInput.value)) {
                 e.preventDefault();
-                alert('Name must only contain letters and spaces.');
+                alert('Name must be between 2 and 50 characters and only contain letters.');
                 return;
             }
 
@@ -104,9 +104,10 @@
 
             // phone number
             const phoneInput = document.getElementById('phone');
-            if (!/^\d{10}$/.test(phoneInput.value)) {
+            const phoneRegex = /^[(]?[0-9]{3}[)]?[\s.-]?[0-9]{3}[.-]?[0-9]{4}$/;
+            if (!phoneRegex.test(phoneInput.value)) {
                 e.preventDefault();
-                alert('Phone number must be exactly 10 digits.');
+                alert('Phone number should follow this format (000) 000-0000.');
                 return;
             }
 

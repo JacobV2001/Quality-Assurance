@@ -1,0 +1,3 @@
+phone number,True,123-456-7890,Fail,Please match the requested format.
+phone number,True,123.456.7890,Fail,Please match the requested format.
+phone number,True,(123) 456-7890,Fail,Please match the requested format.

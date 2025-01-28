@@ -1,0 +1,7 @@
+1234567890,Success
+,Fail,Please fill out this field.
+123,Fail,Phone number should follow this format (000) 000-0000.
+abcdefghij,Fail,Phone number should follow this format (000) 000-0000.
+123-456-7890,Success
+123.456.7890,Success
+(123) 456-7890,Success
